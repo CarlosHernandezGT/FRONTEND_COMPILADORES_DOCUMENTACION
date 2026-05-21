@@ -36,16 +36,16 @@
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "chotear(valor);"
+      "value": "chotear ABRAZO valor RESPALDO FRENO"
     },
     {
       "type": "paragraph",
-      "value": "O en una forma más felxible:"
+      "value": "O en una forma más flexible:"
     },
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "chotear('expresion');"
+      "value": "chotear ABRAZO 'expresion' RESPALDO FRENO"
     },
     {
       "type": "heading",
@@ -54,12 +54,11 @@
     {
       "type":"subtitle",
       "value": "1. Imprimir texto simple"
-
     },
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "chotear(valor);"
+      "value": "chotear ABRAZO 'Hola mundo' RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -68,7 +67,7 @@
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "25"
+      "value": "Hola mundo"
     },
     {
       "type":"paragraph",
@@ -77,12 +76,11 @@
     {
       "type":"subtitle",
       "value": "2. Imprimir una variable"
-
     },
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "cabal edad = 25; \nchotear(edad);"
+      "value": "cabal edad DAR 25 FRENO\nchotear ABRAZO edad RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -104,7 +102,7 @@
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "chotear(5 + 3 * 2);"
+      "value": "chotear ABRAZO 5 CRUZ 3 ESTRELLA 2 RESPALDO FRENO"
     },
     {
       "type":"paragraph",
@@ -126,7 +124,7 @@
     {
       "type": "code",
       "label":"‹/› chapinScript",
-      "value": "chisme nombre = 'Luis';\ncabal edad = 30;\n\nchotear('Nombre: ' + nombre + ', Edad: ' + edad );"
+      "value": "chisme nombre DAR 'Luis' FRENO\ncabal edad DAR 30 FRENO\n\nchotear ABRAZO 'Nombre: ' CRUZ nombre CRUZ ', Edad: ' CRUZ edad RESPALDO FRENO"
     },
     {
       "type":"paragraph",
@@ -147,7 +145,7 @@
     },
     {
       "type":"paragraph",
-      "value":"CHOTEAR es una de las instrucciones más esenciales en ChapinScript, ya que permite visualizar información durante la ejecución del programa. Su diseño busca simplificar la salida en comparación con C++, manteniendo la funcionalidad pero reduciendo la complejidad sintáctica.Es una herramienta clave tanto para interacción con el usuario como para depuración, y su uso correcto mejora significativamente la comprensión y mantenimiento del código."
+      "value":"CHOTEAR es una de las instrucciones más esenciales en ChapinScript, ya que permite visualizar información durante la ejecución del programa. Su diseño busca simplificar la salida en comparación con C++, manteniendo la funcionalidad pero reduciendo la complejidad sintáctica. Es una herramienta clave tanto para interacción con el usuario como para depuración, y su uso correcto mejora significativamente la comprensión y mantenimiento del código."
     }
   ]
   },
@@ -188,7 +186,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "simon(condicion){\n    // instrucciones\n}"
+      "value": "simon ABRAZO condicion RESPALDO ALMA\n    // instrucciones\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -197,7 +195,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "simon(condicion){\n    // verdadero\n} chapus {\n    // falso\n}"
+      "value": "simon ABRAZO condicion RESPALDO ALMA\n    // verdadero\nCUERPO chapus ALMA\n    // falso\nCUERPO"
     },
     {
       "type": "heading",
@@ -210,7 +208,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal edad = 18;\n\nsimon(edad >= 18){\n    chotear('Sos mayor de edad');\n}"
+      "value": "cabal edad DAR 18 FRENO\n\nsimon ABRAZO edad TECHO 18 RESPALDO ALMA\n    chotear ABRAZO 'Sos mayor de edad' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -232,7 +230,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal edad = 15;\n\nsimon(edad >= 18){\n    chotear('Mayor de edad');\n} chapus {\n    chotear('Menor de edad');\n}"
+      "value": "cabal edad DAR 15 FRENO\n\nsimon ABRAZO edad TECHO 18 RESPALDO ALMA\n    chotear ABRAZO 'Mayor de edad' RESPALDO FRENO\nCUERPO chapus ALMA\n    chotear ABRAZO 'Menor de edad' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -254,7 +252,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal edad = 20;\ncasaca tieneDPI = deplano;\n\nsimon(edad >= 18 && tieneDPI){\n    chotear('Puede votar');\n}"
+      "value": "cabal edad DAR 20 FRENO\ncasaca tieneDPI DAR deplano FRENO\n\nsimon ABRAZO edad TECHO 18 CADENA tieneDPI RESPALDO ALMA\n    chotear ABRAZO 'Puede votar' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -276,7 +274,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal nota = 75;\n\nsimon(nota >= 60){\n    simon(nota >= 90){\n        chotear('Excelente');\n    } chapus {\n        chotear('Aprobado');\n    }\n}"
+      "value": "cabal nota DAR 75 FRENO\n\nsimon ABRAZO nota TECHO 60 RESPALDO ALMA\n    simon ABRAZO nota TECHO 90 RESPALDO ALMA\n        chotear ABRAZO 'Excelente' RESPALDO FRENO\n    CUERPO chapus ALMA\n        chotear ABRAZO 'Aprobado' RESPALDO FRENO\n    CUERPO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -338,7 +336,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "simon(condicion){\n    // verdadero\n} chapus {\n    // falso\n}"
+      "value": "simon ABRAZO condicion RESPALDO ALMA\n    // verdadero\nCUERPO chapus ALMA\n    // falso\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -355,7 +353,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal edad = 16;\n\nsimon(edad >= 18){\n    chotear('Mayor de edad');\n} chapus {\n    chotear('Menor de edad');\n}"
+      "value": "cabal edad DAR 16 FRENO\n\nsimon ABRAZO edad TECHO 18 RESPALDO ALMA\n    chotear ABRAZO 'Mayor de edad' RESPALDO FRENO\nCUERPO chapus ALMA\n    chotear ABRAZO 'Menor de edad' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -377,7 +375,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal numero = -5;\n\nsimon(numero > 0){\n    chotear('Número positivo');\n} chapus {\n    chotear('Número no positivo');\n}"
+      "value": "cabal numero DAR RAYA 5 FRENO\n\nsimon ABRAZO numero BOCA 0 RESPALDO ALMA\n    chotear ABRAZO 'Número positivo' RESPALDO FRENO\nCUERPO chapus ALMA\n    chotear ABRAZO 'Número no positivo' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -399,7 +397,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal nota = 50;\n\nsimon(nota >= 90){\n    chotear('Excelente');\n} chapus {\n    simon(nota >= 60){\n        chotear('Aprobado');\n    } chapus {\n        chotear('Reprobado');\n    }\n}"
+      "value": "cabal nota DAR 50 FRENO\n\nsimon ABRAZO nota TECHO 90 RESPALDO ALMA\n    chotear ABRAZO 'Excelente' RESPALDO FRENO\nCUERPO chapus ALMA\n    simon ABRAZO nota TECHO 60 RESPALDO ALMA\n        chotear ABRAZO 'Aprobado' RESPALDO FRENO\n    CUERPO chapus ALMA\n        chotear ABRAZO 'Reprobado' RESPALDO FRENO\n    CUERPO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -421,7 +419,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "casaca tienePermiso = nel;\n\nsimon(tienePermiso){\n    chotear('Acceso permitido');\n} chapus {\n    chotear('Acceso denegado');\n}"
+      "value": "casaca tienePermiso DAR nel FRENO\n\nsimon ABRAZO tienePermiso RESPALDO ALMA\n    chotear ABRAZO 'Acceso permitido' RESPALDO FRENO\nCUERPO chapus ALMA\n    chotear ABRAZO 'Acceso denegado' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -483,7 +481,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "condicion ? valorSiVerdadero : valorSiFalso;"
+      "value": "condicion DUDA valorSiVerdadero OJOS valorSiFalso FRENO"
     },
     {
       "type": "paragraph",
@@ -500,7 +498,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal edad = 20;\nchisme resultado = edad >= 18 ? 'Mayor de edad' : 'Menor de edad';\n\nchotear(resultado);"
+      "value": "cabal edad DAR 20 FRENO\nchisme resultado DAR edad TECHO 18 DUDA 'Mayor de edad' OJOS 'Menor de edad' FRENO\n\nchotear ABRAZO resultado RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -522,7 +520,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal numero = 10;\n\nchotear(numero % 2 == 0 ? 'Par' : 'Impar');"
+      "value": "cabal numero DAR 10 FRENO\n\nchotear ABRAZO numero SOBRA 2 GEMELOS 0 DUDA 'Par' OJOS 'Impar' RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -544,7 +542,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal a = 5;\ncabal b = 10;\n\ncabal mayor = a > b ? a : b;\nchotear(mayor);"
+      "value": "cabal a DAR 5 FRENO\ncabal b DAR 10 FRENO\n\ncabal mayor DAR a BOCA b DUDA a OJOS b FRENO\nchotear ABRAZO mayor RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -566,7 +564,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal nota = 85;\n\nchisme resultado = nota >= 90 ? 'Excelente' : nota >= 60 ? 'Aprobado' : 'Reprobado';\nchotear(resultado);"
+      "value": "cabal nota DAR 85 FRENO\n\nchisme resultado DAR nota TECHO 90 DUDA 'Excelente' OJOS nota TECHO 60 DUDA 'Aprobado' OJOS 'Reprobado' FRENO\nchotear ABRAZO resultado RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -628,7 +626,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chiripa(expresion){\n    wasa valor1:\n        // instrucciones\n        cuaje;\n    wasa valor2:\n        // instrucciones\n        cuaje;\n    porsiacaso:\n        // instrucciones por defecto\n}"
+      "value": "chiripa ABRAZO expresion RESPALDO ALMA\n    wasa valor1 OJOS\n        // instrucciones\n        cuaje FRENO\n    wasa valor2 OJOS\n        // instrucciones\n        cuaje FRENO\n    porsiacaso OJOS\n        // instrucciones por defecto\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -645,7 +643,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal opcion = 2;\n\nchiripa(opcion){\n    wasa 1:\n        chotear('Opción 1');\n        cuaje;\n    wasa 2:\n        chotear('Opción 2');\n        cuaje;\n    porsiacaso:\n        chotear('Opción no válida');\n}"
+      "value": "cabal opcion DAR 2 FRENO\n\nchiripa ABRAZO opcion RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Opción 1' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Opción 2' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Opción no válida' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -667,7 +665,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal menu = 3;\n\nchiripa(menu){\n    wasa 1:\n        chotear('Ver perfil');\n        cuaje;\n    wasa 2:\n        chotear('Editar perfil');\n        cuaje;\n    wasa 3:\n        chotear('Cerrar sesión');\n        cuaje;\n    porsiacaso:\n        chotear('Opción inválida');\n}"
+      "value": "cabal menu DAR 3 FRENO\n\nchiripa ABRAZO menu RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Ver perfil' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Editar perfil' RESPALDO FRENO\n        cuaje FRENO\n    wasa 3 OJOS\n        chotear ABRAZO 'Cerrar sesión' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Opción inválida' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -689,7 +687,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chisme color = 'rojo';\n\nchiripa(color){\n    wasa 'rojo':\n        chotear('Color rojo');\n        cuaje;\n    wasa 'azul':\n        chotear('Color azul');\n        cuaje;\n    porsiacaso:\n        chotear('Color desconocido');\n}"
+      "value": "chisme color DAR 'rojo' FRENO\n\nchiripa ABRAZO color RESPALDO ALMA\n    wasa 'rojo' OJOS\n        chotear ABRAZO 'Color rojo' RESPALDO FRENO\n        cuaje FRENO\n    wasa 'azul' OJOS\n        chotear ABRAZO 'Color azul' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Color desconocido' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -711,7 +709,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal numero = 1;\n\nchiripa(numero){\n    wasa 1:\n        chotear('Uno');\n    wasa 2:\n        chotear('Dos');\n        cuaje;\n}"
+      "value": "cabal numero DAR 1 FRENO\n\nchiripa ABRAZO numero RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Uno' RESPALDO FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Dos' RESPALDO FRENO\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -773,7 +771,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chiripa(expresion){\n    wasa valor:\n        // instrucciones\n        cuaje;\n}"
+      "value": "chiripa ABRAZO expresion RESPALDO ALMA\n    wasa valor OJOS\n        // instrucciones\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -790,7 +788,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal opcion = 1;\n\nchiripa(opcion){\n    wasa 1:\n        chotear('Elegiste la opción 1');\n        cuaje;\n    porsiacaso:\n        chotear('Opción no válida');\n}"
+      "value": "cabal opcion DAR 1 FRENO\n\nchiripa ABRAZO opcion RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Elegiste la opción 1' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Opción no válida' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -812,7 +810,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal menu = 2;\n\nchiripa(menu){\n    wasa 1:\n        chotear('Inicio');\n        cuaje;\n    wasa 2:\n        chotear('Configuración');\n        cuaje;\n    wasa 3:\n        chotear('Salir');\n        cuaje;\n}"
+      "value": "cabal menu DAR 2 FRENO\n\nchiripa ABRAZO menu RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Inicio' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Configuración' RESPALDO FRENO\n        cuaje FRENO\n    wasa 3 OJOS\n        chotear ABRAZO 'Salir' RESPALDO FRENO\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -834,7 +832,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chisme dia = 'lunes';\n\nchiripa(dia){\n    wasa 'lunes':\n        chotear('Inicio de semana');\n        cuaje;\n    wasa 'viernes':\n        chotear('Casi fin de semana');\n        cuaje;\n    porsiacaso:\n        chotear('Día no identificado');\n}"
+      "value": "chisme dia DAR 'lunes' FRENO\n\nchiripa ABRAZO dia RESPALDO ALMA\n    wasa 'lunes' OJOS\n        chotear ABRAZO 'Inicio de semana' RESPALDO FRENO\n        cuaje FRENO\n    wasa 'viernes' OJOS\n        chotear ABRAZO 'Casi fin de semana' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Día no identificado' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -856,7 +854,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal numero = 1;\n\nchiripa(numero){\n    wasa 1:\n        chotear('Uno');\n    wasa 2:\n        chotear('Dos');\n        cuaje;\n}"
+      "value": "cabal numero DAR 1 FRENO\n\nchiripa ABRAZO numero RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Uno' RESPALDO FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Dos' RESPALDO FRENO\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -918,7 +916,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chiripa(expresion){\n    wasa valor1:\n        // instrucciones\n        cuaje;\n    porsiacaso:\n        // instrucciones por defecto\n}"
+      "value": "chiripa ABRAZO expresion RESPALDO ALMA\n    wasa valor1 OJOS\n        // instrucciones\n        cuaje FRENO\n    porsiacaso OJOS\n        // instrucciones por defecto\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -935,7 +933,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal opcion = 5;\n\nchiripa(opcion){\n    wasa 1:\n        chotear('Opción 1');\n        cuaje;\n    wasa 2:\n        chotear('Opción 2');\n        cuaje;\n    porsiacaso:\n        chotear('Opción no válida');\n}"
+      "value": "cabal opcion DAR 5 FRENO\n\nchiripa ABRAZO opcion RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Opción 1' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Opción 2' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Opción no válida' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -957,7 +955,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chisme color = 'verde';\n\nchiripa(color){\n    wasa 'rojo':\n        chotear('Color rojo');\n        cuaje;\n    wasa 'azul':\n        chotear('Color azul');\n        cuaje;\n    porsiacaso:\n        chotear('Color desconocido');\n}"
+      "value": "chisme color DAR 'verde' FRENO\n\nchiripa ABRAZO color RESPALDO ALMA\n    wasa 'rojo' OJOS\n        chotear ABRAZO 'Color rojo' RESPALDO FRENO\n        cuaje FRENO\n    wasa 'azul' OJOS\n        chotear ABRAZO 'Color azul' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Color desconocido' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -979,7 +977,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal numero = 10;\n\nchiripa(numero){\n    wasa 1:\n        chotear('Uno');\n        cuaje;\n    wasa 2:\n        chotear('Dos');\n        cuaje;\n}"
+      "value": "cabal numero DAR 10 FRENO\n\nchiripa ABRAZO numero RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Uno' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Dos' RESPALDO FRENO\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1001,7 +999,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal opcion = -1;\n\nchiripa(opcion){\n    wasa 1:\n        chotear('Acción válida');\n        cuaje;\n    porsiacaso:\n        chotear('Error: opción inválida');\n}"
+      "value": "cabal opcion DAR RAYA 1 FRENO\n\nchiripa ABRAZO opcion RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Acción válida' RESPALDO FRENO\n        cuaje FRENO\n    porsiacaso OJOS\n        chotear ABRAZO 'Error: opción inválida' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1063,7 +1061,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cuaje;"
+      "value": "cuaje FRENO"
     },
     {
       "type": "paragraph",
@@ -1080,7 +1078,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal opcion = 1;\n\nchiripa(opcion){\n    wasa 1:\n        chotear('Opción 1');\n        cuaje;\n    wasa 2:\n        chotear('Opción 2');\n        cuaje;\n}"
+      "value": "cabal opcion DAR 1 FRENO\n\nchiripa ABRAZO opcion RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Opción 1' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Opción 2' RESPALDO FRENO\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1102,7 +1100,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal numero = 1;\n\nchiripa(numero){\n    wasa 1:\n        chotear('Uno');\n        cuaje;\n    wasa 2:\n        chotear('Dos');\n        cuaje;\n}"
+      "value": "cabal numero DAR 1 FRENO\n\nchiripa ABRAZO numero RESPALDO ALMA\n    wasa 1 OJOS\n        chotear ABRAZO 'Uno' RESPALDO FRENO\n        cuaje FRENO\n    wasa 2 OJOS\n        chotear ABRAZO 'Dos' RESPALDO FRENO\n        cuaje FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1124,7 +1122,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(cabal i = 0; i < 5; i = i + 1){\n    simon(i == 3){\n        cuaje;\n    }\n    chotear(i);\n}"
+      "value": "vuelta ABRAZO cabal i DAR 0 FRENO i PICO 5 FRENO i DAR i CRUZ 1 RESPALDO ALMA\n    simon ABRAZO i GEMELOS 3 RESPALDO ALMA\n        cuaje FRENO\n    CUERPO\n    chotear ABRAZO i RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1146,7 +1144,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal i = 0;\n\nseguile(i < 10){\n    simon(i == 5){\n        cuaje;\n    }\n    chotear(i);\n    i = i + 1;\n}"
+      "value": "cabal i DAR 0 FRENO\n\nseguile ABRAZO i PICO 10 RESPALDO ALMA\n    simon ABRAZO i GEMELOS 5 RESPALDO ALMA\n        cuaje FRENO\n    CUERPO\n    chotear ABRAZO i RESPALDO FRENO\n    i DAR i CRUZ 1 FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1208,7 +1206,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(inicializacion; condicion; actualizacion){\n    // instrucciones\n}"
+      "value": "vuelta ABRAZO inicializacion FRENO condicion FRENO actualizacion RESPALDO ALMA\n    // instrucciones\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1225,7 +1223,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(cabal i = 0; i < 5; i = i + 1){\n    chotear(i);\n}"
+      "value": "vuelta ABRAZO cabal i DAR 0 FRENO i PICO 5 FRENO i DAR i CRUZ 1 RESPALDO ALMA\n    chotear ABRAZO i RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1247,7 +1245,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(cabal i = 5; i > 0; i = i - 1){\n    chotear(i);\n}"
+      "value": "vuelta ABRAZO cabal i DAR 5 FRENO i BOCA 0 FRENO i DAR i RAYA 1 RESPALDO ALMA\n    chotear ABRAZO i RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1269,7 +1267,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(cabal i = 0; i < 10; i = i + 1){\n    simon(i % 2 == 0){\n        chotear(i);\n    }\n}"
+      "value": "vuelta ABRAZO cabal i DAR 0 FRENO i PICO 10 FRENO i DAR i CRUZ 1 RESPALDO ALMA\n    simon ABRAZO i SOBRA 2 GEMELOS 0 RESPALDO ALMA\n        chotear ABRAZO i RESPALDO FRENO\n    CUERPO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1291,7 +1289,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(cabal i = 0; i < 10; i = i + 1){\n    simon(i == 5){\n        cuaje;\n    }\n    chotear(i);\n}"
+      "value": "vuelta ABRAZO cabal i DAR 0 FRENO i PICO 10 FRENO i DAR i CRUZ 1 RESPALDO ALMA\n    simon ABRAZO i GEMELOS 5 RESPALDO ALMA\n        cuaje FRENO\n    CUERPO\n    chotear ABRAZO i RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1353,7 +1351,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "seguile(condicion){\n    // instrucciones\n}"
+      "value": "seguile ABRAZO condicion RESPALDO ALMA\n    // instrucciones\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1370,7 +1368,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal i = 0;\n\nseguile(i < 5){\n    chotear(i);\n    i = i + 1;\n}"
+      "value": "cabal i DAR 0 FRENO\n\nseguile ABRAZO i PICO 5 RESPALDO ALMA\n    chotear ABRAZO i RESPALDO FRENO\n    i DAR i CRUZ 1 FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1392,7 +1390,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal contador = 0;\n\nseguile(contador < 3){\n    chotear('Iteración');\n    contador = contador + 1;\n}"
+      "value": "cabal contador DAR 0 FRENO\n\nseguile ABRAZO contador PICO 3 RESPALDO ALMA\n    chotear ABRAZO 'Iteración' RESPALDO FRENO\n    contador DAR contador CRUZ 1 FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1414,7 +1412,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal i = 0;\n\nseguile(i < 10){\n    simon(i == 4){\n        cuaje;\n    }\n    chotear(i);\n    i = i + 1;\n}"
+      "value": "cabal i DAR 0 FRENO\n\nseguile ABRAZO i PICO 10 RESPALDO ALMA\n    simon ABRAZO i GEMELOS 4 RESPALDO ALMA\n        cuaje FRENO\n    CUERPO\n    chotear ABRAZO i RESPALDO FRENO\n    i DAR i CRUZ 1 FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1436,7 +1434,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "seguile(deplano){\n    chotear('Esto se repite para siempre');\n}"
+      "value": "seguile ABRAZO deplano RESPALDO ALMA\n    chotear ABRAZO 'Esto se repite para siempre' RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1494,7 +1492,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "dale {\n    // instrucciones\n} seguile(condicion);"
+      "value": "dale ALMA\n    // instrucciones\nCUERPO seguile ABRAZO condicion RESPALDO FRENO"
     },
     {
       "type": "heading",
@@ -1507,7 +1505,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal i = 0;\n\ndale {\n    chotear(i);\n    i = i + 1;\n} seguile(i < 3);"
+      "value": "cabal i DAR 0 FRENO\n\ndale ALMA\n    chotear ABRAZO i RESPALDO FRENO\n    i DAR i CRUZ 1 FRENO\nCUERPO seguile ABRAZO i PICO 3 RESPALDO FRENO"
     },
     {
       "type": "paragraph",
@@ -1529,7 +1527,7 @@
   ]
 },
   {
-    "slug": "cuaje",
+    "slug": "cuaje-simple",
     "title": "cuaje",
     "category": "Documentación",
     "description": "Para salir de un bucle o de un switch",
@@ -1541,7 +1539,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "cuaje;"
+        "value": "cuaje FRENO"
       }
     ]
   },
@@ -1578,7 +1576,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "chanin;"
+      "value": "chanin FRENO"
     },
     {
       "type": "heading",
@@ -1591,7 +1589,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vuelta(cabal i = 0; i < 5; i = i + 1){\n    simon(i % 2 == 0){\n        chanin;\n    }\n    chotear(i);\n}"
+      "value": "vuelta ABRAZO cabal i DAR 0 FRENO i PICO 5 FRENO i DAR i CRUZ 1 RESPALDO ALMA\n    simon ABRAZO i SOBRA 2 GEMELOS 0 RESPALDO ALMA\n        chanin FRENO\n    CUERPO\n    chotear ABRAZO i RESPALDO FRENO\nCUERPO"
     },
     {
       "type": "paragraph",
@@ -1645,7 +1643,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "vonos valor;"
+      "value": "vonos valor FRENO"
     },
     {
       "type": "heading",
@@ -1658,7 +1656,7 @@
     {
       "type": "code",
       "label": "‹/› chapinScript",
-      "value": "cabal suma(cabal a, cabal b){\n    vonos a + b;\n}"
+      "value": "cabal suma ABRAZO cabal a SEMILLA cabal b RESPALDO ALMA\n    vonos a CRUZ b FRENO\nCUERPO"
     },
     {
       "type": "subtitle",
@@ -1682,10 +1680,10 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de cabal es: \n➣ Almacenar números enteros\n➣ Realizar operaciones matemáticas\n➣ Controlar bucles e índices\n➣ Representar cantidades discretas" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "cabal numero = 10;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "cabal numero DAR 10 FRENO" },
     { "type": "heading", "value": "Ejemplos de uso" },
     { "type": "subtitle", "value": "1. Declaración básica" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "cabal edad = 25;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "cabal edad DAR 25 FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "CABAL representa números enteros en ChapinScript. Inspirado en int de C++, es uno de los tipos más utilizados para operaciones numéricas." }
   ]
@@ -1694,7 +1692,7 @@
     "slug": "cabal-array",
     "title": "cabal []",
     "category": "Documentación",
-    "description": "Array de tipo enter",
+    "description": "Array de tipo entero",
     "content": [
       {
         "type": "heading",
@@ -1703,7 +1701,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "cabal misNumeros[5] = {1, 2, 3, 4, 5};"
+        "value": "cabal misNumeros CAJON 5 TAPA DAR ALMA 1 SEMILLA 2 SEMILLA 3 SEMILLA 4 SEMILLA 5 CUERPO FRENO"
       }
     ]
   },
@@ -1719,7 +1717,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de pisto es: \n➣ Representar números decimales\n➣ Realizar cálculos con fracciones\n➣ Usar menor memoria que double" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "pisto precio = 10.5;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "pisto precio DAR 10.5 FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "PISTO permite manejar números decimales simples en ChapinScript. Inspirado en float de C++." }
   ]
@@ -1737,7 +1735,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "pisto misNumeros[3] = {10.5,99.99, 5.25};"
+        "value": "pisto misNumeros CAJON 3 TAPA DAR ALMA 10.5 SEMILLA 99.99 SEMILLA 5.25 CUERPO FRENO"
       }
     ]
   },
@@ -1753,7 +1751,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de pistazo es: \n➣ Manejar números de alta precisión\n➣ Realizar cálculos científicos o financieros\n➣ Evitar errores de redondeo" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "pistazo valor = 10.123456;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "pistazo valor DAR 10.123456 FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "PISTAZO es un tipo de dato de alta precisión en ChapinScript, inspirado en double de C++." }
   ]
@@ -1771,7 +1769,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "pistazo miDistancia[2] = {345.6789, 12.3456};"
+        "value": "pistazo miDistancia CAJON 2 TAPA DAR ALMA 345.6789 SEMILLA 12.3456 CUERPO FRENO"
       }
     ]
   },
@@ -1787,7 +1785,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de cachito es: \n➣ Representar un carácter individual\n➣ Manejar texto a bajo nivel\n➣ Procesar símbolos o letras" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "cachito letra = 'A';" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "cachito letra DAR 'A' FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "CACHITO permite manejar caracteres individuales, inspirado en char de C++." }
   ]
@@ -1805,7 +1803,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "cachito misIniciales[4] = {'P', 'R', 'O', 'Y', 'E', 'C', 'T'};"
+        "value": "cachito misIniciales CAJON 7 TAPA DAR ALMA 'P' SEMILLA 'R' SEMILLA 'O' SEMILLA 'Y' SEMILLA 'E' SEMILLA 'C' SEMILLA 'T' CUERPO FRENO"
       }
     ]
   },
@@ -1821,7 +1819,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de casaca es: \n➣ Evaluar condiciones\n➣ Controlar flujos de decisión\n➣ Representar estados lógicos" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "casaca activo = deplano;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "casaca activo DAR deplano FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "CASACA permite trabajar con valores booleanos en ChapinScript, inspirado en bool de C++." }
   ]
@@ -1839,7 +1837,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "casaca respuestas[3] = {true, false, true};"
+        "value": "casaca respuestas CAJON 3 TAPA DAR ALMA deplano SEMILLA nel SEMILLA deplano CUERPO FRENO"
       }
     ]
   },
@@ -1855,7 +1853,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de chisme es: \n➣ Manejar texto\n➣ Almacenar mensajes\n➣ Concatenar información\n➣ Mostrar datos al usuario" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "chisme nombre = 'Juan';" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "chisme nombre DAR 'Juan' FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "CHISME es el tipo de dato para texto en ChapinScript, inspirado en string de C++." }
   ]
@@ -1873,7 +1871,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "chisme misNumeros[5] = {\"Hola\", \"Mundo\", \"Ejemplo\", \"de\", \"uso\"};"
+        "value": "chisme misTextos CAJON 5 TAPA DAR ALMA 'Hola' SEMILLA 'Mundo' SEMILLA 'Ejemplo' SEMILLA 'de' SEMILLA 'uso' CUERPO FRENO"
       }
     ]
   },
@@ -1889,10 +1887,10 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de fijo es: \n➣ Evitar modificaciones accidentales\n➣ Definir valores constantes\n➣ Mejorar la seguridad del código\n➣ Facilitar la lectura del programa" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "fijo cabal PI = 3;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "fijo cabal PI DAR 3 FRENO" },
     { "type": "heading", "value": "Ejemplos de uso" },
     { "type": "subtitle", "value": "1. Constante simple" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "fijo cabal edad = 18;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "fijo cabal edad DAR 18 FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "FIJO permite declarar valores constantes en ChapinScript. Inspirado en const de C++, evita modificaciones y mejora la seguridad del código." }
   ]
@@ -1909,10 +1907,10 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de banda es: \n➣ Definir estructuras de datos complejas\n➣ Crear objetos\n➣ Encapsular datos y comportamiento\n➣ Facilitar reutilización de código" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "banda Persona {\n    chisme nombre;\n    cabal edad;\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "banda Persona ALMA\n    chisme nombre FRENO\n    cabal edad FRENO\nCUERPO" },
     { "type": "heading", "value": "Ejemplos de uso" },
     { "type": "subtitle", "value": "1. Clase básica" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "banda Persona {\n    chisme nombre;\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "banda Persona ALMA\n    chisme nombre FRENO\nCUERPO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "BANDA permite definir clases en ChapinScript, inspirado en class de C++, siendo la base de la programación orientada a objetos." }
   ]
@@ -1929,10 +1927,10 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de vos es: \n➣ Referirse al objeto actual\n➣ Acceder a atributos de la clase\n➣ Diferenciar variables locales de atributos\n➣ Mejorar claridad del código" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "vos.nombre = 'Juan';" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "vos ATOMO nombre DAR 'Juan' FRENO" },
     { "type": "heading", "value": "Ejemplos de uso" },
     { "type": "subtitle", "value": "1. Uso dentro de clase" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "banda Persona {\n    chisme nombre;\n\n    nimais setNombre(chisme nombre){\n        vos.nombre = nombre;\n    }\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "banda Persona ALMA\n    chisme nombre FRENO\n\n    nimais setNombre ABRAZO chisme nombre RESPALDO ALMA\n        vos ATOMO nombre DAR nombre FRENO\n    CUERPO\nCUERPO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "VOS permite referirse a la instancia actual de una clase en ChapinScript, inspirado en this de C++." }
   ]
@@ -1949,10 +1947,10 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de nimais es: \n➣ Definir funciones sin retorno\n➣ Ejecutar acciones\n➣ Separar lógica de resultados\n➣ Mejorar organización del código" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "nimais saludar(){\n    chotear('Hola');\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "nimais saludar ABRAZO RESPALDO ALMA\n    chotear ABRAZO 'Hola' RESPALDO FRENO\nCUERPO" },
     { "type": "heading", "value": "Ejemplos de uso" },
     { "type": "subtitle", "value": "1. Función simple" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "nimais imprimir(){\n    chotear('Hola mundo');\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "nimais imprimir ABRAZO RESPALDO ALMA\n    chotear ABRAZO 'Hola mundo' RESPALDO FRENO\nCUERPO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "NIMAIS permite declarar funciones sin valor de retorno en ChapinScript, inspirado en void de C++." }
   ]
@@ -1969,7 +1967,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de calale es: \n➣ Encapsular código riesgoso\n➣ Prevenir fallos inesperados\n➣ Preparar manejo de errores\n➣ Mejorar la estabilidad del programa" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "calale {\n    // código\n} atrapalo(e){\n    // manejo\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "calale ALMA\n    // código\nCUERPO atrapalo ABRAZO e RESPALDO ALMA\n    // manejo\nCUERPO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "CALALE permite manejar errores potenciales en ChapinScript, inspirado en try de C++." }
   ]
@@ -1986,7 +1984,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de atrapalo es: \n➣ Capturar errores\n➣ Manejar excepciones\n➣ Evitar que el programa falle\n➣ Permitir recuperación del sistema" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "atrapalo(e){\n    chotear(e.quepaso());\n}" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "atrapalo ABRAZO e RESPALDO ALMA\n    chotear ABRAZO e ATOMO quepaso ABRAZO RESPALDO RESPALDO FRENO\nCUERPO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "ATRAPALO permite manejar errores capturados, inspirado en catch de C++." }
   ]
@@ -2003,7 +2001,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de morongazo es: \n➣ Generar errores manualmente\n➣ Controlar fallos\n➣ Validar condiciones críticas\n➣ Forzar manejo de excepciones" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "morongazo estrenar clavo('Error');" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "morongazo estrenar clavo ABRAZO 'Error' RESPALDO FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "MORONGAZO permite lanzar errores en ChapinScript, inspirado en throw de C++." }
   ]
@@ -2020,7 +2018,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de barrio es: \n➣ Permitir acceso externo\n➣ Definir interfaces públicas\n➣ Facilitar uso de objetos" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "barrio:\n    chisme nombre;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "barrio OJOS\n    chisme nombre FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "BARRIO define acceso público en ChapinScript, inspirado en public de C++." }
   ]
@@ -2037,7 +2035,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal de caquero es: \n➣ Restringir acceso\n➣ Proteger datos\n➣ Implementar encapsulación\n➣ Evitar uso indebido" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "caquero:\n    cabal edad;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "caquero OJOS\n    cabal edad FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "CAQUERO permite encapsular datos en ChapinScript, inspirado en private de C++." }
   ]
@@ -2054,7 +2052,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal es: \n➣ Evaluar condiciones\n➣ Controlar flujo lógico\n➣ Representar estados binarios" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "casaca activo = deplano;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "casaca activo DAR deplano FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "DEPLANO y NEL representan valores booleanos en ChapinScript, inspirados en true y false de C++." }
   ]
@@ -2071,7 +2069,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal es: \n➣ Indicar valor vacío\n➣ Inicializar variables\n➣ Manejar referencias inexistentes" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "chisme nombre = inutil;" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "chisme nombre DAR inutil FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "INUTIL representa valores nulos en ChapinScript, inspirado en null de C++." }
   ]
@@ -2106,7 +2104,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "cabal traerEnergia() { vonos vos->energia; }"
+        "value": "cabal traerEnergia ABRAZO RESPALDO ALMA vonos vos ATOMO energia FRENO CUERPO"
       }
     ]
   },
@@ -2123,7 +2121,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "nimais meterEnergia(cabal e) { vos->energia = e; }"
+        "value": "nimais meterEnergia ABRAZO cabal e RESPALDO ALMA vos ATOMO energia DAR e FRENO CUERPO"
       }
     ]
   },
@@ -2140,12 +2138,12 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "firme cabal contadorTotal = 0;"
+        "value": "firme cabal contadorTotal DAR 0 FRENO"
       }
     ]
   },
   {
-    "slug": "inutil",
+    "slug": "inutil-pointer",
     "title": "inutil",
     "category": "Documentación",
     "description": "Define algo vacío",
@@ -2157,7 +2155,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "Robot* miRobot = inutil;"
+        "value": "Robot miRobot DAR inutil FRENO"
       }
     ]
   },
@@ -2173,7 +2171,7 @@
     { "type": "heading", "value": "Propósito y comportamiento" },
     { "type": "paragraph", "value": "El propósito principal es: \n➣ Crear objetos\n➣ Instanciar clases\n➣ Manejar memoria dinámica" },
     { "type": "heading", "value": "Sintaxis" },
-    { "type": "code", "label": "‹/› chapinScript", "value": "Persona p = estrenar Persona();" },
+    { "type": "code", "label": "‹/› chapinScript", "value": "Persona p DAR estrenar Persona ABRAZO RESPALDO FRENO" },
     { "type": "subtitle", "value": "Resumen" },
     { "type": "paragraph", "value": "ESTRENAR permite crear instancias en ChapinScript, inspirado en new de C++." }
   ]
@@ -2191,7 +2189,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "atrapalo (Clavo e) { ... }"
+        "value": "atrapalo ABRAZO Clavo e RESPALDO ALMA CUERPO"
       }
     ]
   },
@@ -2199,7 +2197,7 @@
     "slug": "granclavo",
     "title": "granclavo",
     "category": "Documentación",
-    "description": "Un error que pasa de la nada mientras corre el codigo",
+    "description": "Un error que pasa de la nada mientras corre el código",
     "content": [
       {
         "type": "heading",
@@ -2208,7 +2206,7 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "estrenar GranClavo(\"Se tronó esto\");"
+        "value": "estrenar GranClavo ABRAZO 'Se tronó esto' RESPALDO FRENO"
       }
     ]
   },
@@ -2216,7 +2214,7 @@
     "slug": "quepaso",
     "title": ".quepaso()",
     "category": "Documentación",
-    "description": "Muestra el \"que paso\" (mensaje) de por qué trono el código",
+    "description": "Muestra el mensaje de por qué tronó el código",
     "content": [
       {
         "type": "heading",
@@ -2225,7 +2223,9 @@
       {
         "type": "code",
         "label": "Sintaxis básica",
-        "value": "barrio nimais procesarDato(cabal numero) {\n    calale {\n        simon (numero == 0) {\n            morongazo estrenar GranClavo(\"No podés dividir entre la nada, vos.\");\n        }\n    } atrapalo (GranClavo e) {\n        chotear(\"Fijate que: \" + e.quepaso());\n    }\n}"
+        "value": "barrio OJOS\n    nimais procesarDato ABRAZO cabal numero RESPALDO ALMA\n        calale ALMA\n            simon ABRAZO numero GEMELOS 0 RESPALDO ALMA\n                morongazo estrenar GranClavo ABRAZO 'No podés dividir entre la nada, vos.' RESPALDO FRENO\n            CUERPO\n        CUERPO atrapalo ABRAZO GranClavo e RESPALDO ALMA\n            chotear ABRAZO 'Fijate que: ' CRUZ e ATOMO quepaso ABRAZO RESPALDO RESPALDO FRENO\n        CUERPO\n    CUERPO"
+      }
+    ]
   },
   {
     "slug": "GEMELOS",
