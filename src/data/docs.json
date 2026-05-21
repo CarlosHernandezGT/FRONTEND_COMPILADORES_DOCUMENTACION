@@ -2226,8 +2226,6 @@
         "type": "code",
         "label": "Sintaxis básica",
         "value": "barrio nimais procesarDato(cabal numero) {\n    calale {\n        simon (numero == 0) {\n            morongazo estrenar GranClavo(\"No podés dividir entre la nada, vos.\");\n        }\n    } atrapalo (GranClavo e) {\n        chotear(\"Fijate que: \" + e.quepaso());\n    }\n}"
-      }
-    ]
   },
   {
     "slug": "GEMELOS",
@@ -2239,7 +2237,7 @@
       { "type": "paragraph", "value": "GEMELOS es el operador de igualdad en ChapinScript. Compara si dos valores son iguales." },
       { "type": "paragraph", "value": "Es equivalente a == en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (a GEMELOS b) { chotear('son iguales'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO a GEMELOS b RESPALDO ALMA chotear ABRAZO 'son iguales' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2252,7 +2250,7 @@
       { "type": "paragraph", "value": "CRUZ_DAR asigna a una variable su valor actual más otro valor." },
       { "type": "paragraph", "value": "Es equivalente a += en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x CRUZ_DAR 5;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x CRUZ_DAR 5 FRENO" }
     ]
   },
   {
@@ -2265,7 +2263,7 @@
       { "type": "paragraph", "value": "RAYA_DAR resta un valor a la variable y guarda el resultado." },
       { "type": "paragraph", "value": "Es equivalente a -= en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x RAYA_DAR 3;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x RAYA_DAR 3 FRENO" }
     ]
   },
   {
@@ -2278,7 +2276,7 @@
       { "type": "paragraph", "value": "ESTRELLA_DAR multiplica la variable por un valor y guarda el resultado." },
       { "type": "paragraph", "value": "Es equivalente a *= en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x ESTRELLA_DAR 2;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x ESTRELLA_DAR 2 FRENO" }
     ]
   },
   {
@@ -2291,7 +2289,7 @@
       { "type": "paragraph", "value": "RAMPA_DAR divide la variable entre un valor y guarda el resultado." },
       { "type": "paragraph", "value": "Es equivalente a /= en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x RAMPA_DAR 4;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x RAMPA_DAR 4 FRENO" }
     ]
   },
   {
@@ -2304,7 +2302,7 @@
       { "type": "paragraph", "value": "SOBRA_DAR aplica módulo a la variable y guarda el resultado." },
       { "type": "paragraph", "value": "Es equivalente a %= en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x SOBRA_DAR 2;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x SOBRA_DAR 2 FRENO" }
     ]
   },
   {
@@ -2317,7 +2315,7 @@
       { "type": "paragraph", "value": "DIVORCIO compara si dos valores son diferentes." },
       { "type": "paragraph", "value": "Es equivalente a != en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (a DIVORCIO b) { chotear('son distintos'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO a DIVORCIO b RESPALDO ALMA chotear ABRAZO 'son distintos' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2330,7 +2328,7 @@
       { "type": "paragraph", "value": "BASE evalúa si un valor es menor o igual que otro." },
       { "type": "paragraph", "value": "Es equivalente a <= en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (x BASE 10) { chotear('ok'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO x BASE 10 RESPALDO ALMA chotear ABRAZO 'ok' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2343,7 +2341,7 @@
       { "type": "paragraph", "value": "TECHO evalúa si un valor es mayor o igual que otro." },
       { "type": "paragraph", "value": "Es equivalente a >= en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (x TECHO 18) { chotear('mayor'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO x TECHO 18 RESPALDO ALMA chotear ABRAZO 'mayor' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2356,7 +2354,7 @@
       { "type": "paragraph", "value": "CADENA es el operador lógico AND. Retorna verdadero si ambas condiciones son verdaderas." },
       { "type": "paragraph", "value": "Es equivalente a && en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (a CADENA b) { chotear('ambos'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO a CADENA b RESPALDO ALMA chotear ABRAZO 'ambos' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2369,7 +2367,7 @@
       { "type": "paragraph", "value": "VALLAS es el operador lógico OR. Retorna verdadero si al menos una condición es verdadera." },
       { "type": "paragraph", "value": "Es equivalente a || en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (a VALLAS b) { chotear('alguno'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO a VALLAS b RESPALDO ALMA chotear ABRAZO 'alguno' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2382,7 +2380,7 @@
       { "type": "paragraph", "value": "CRUZ_CRUZ incrementa el valor de una variable en 1." },
       { "type": "paragraph", "value": "Es equivalente a ++ en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x CRUZ_CRUZ;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x CRUZ_CRUZ FRENO" }
     ]
   },
   {
@@ -2395,7 +2393,7 @@
       { "type": "paragraph", "value": "RAYA_RAYA decrementa el valor de una variable en 1." },
       { "type": "paragraph", "value": "Es equivalente a -- en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x RAYA_RAYA;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x RAYA_RAYA FRENO" }
     ]
   },
   {
@@ -2408,7 +2406,7 @@
       { "type": "paragraph", "value": "DAR asigna un valor a una variable." },
       { "type": "paragraph", "value": "Es equivalente a = en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "x DAR 10;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "x DAR 10 FRENO" }
     ]
   },
   {
@@ -2421,7 +2419,7 @@
       { "type": "paragraph", "value": "PICO evalúa si un valor es estrictamente menor que otro." },
       { "type": "paragraph", "value": "Es equivalente a < en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (x PICO 5) { chotear('menor'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO x PICO 5 RESPALDO ALMA chotear ABRAZO 'menor' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2434,7 +2432,7 @@
       { "type": "paragraph", "value": "BOCA evalúa si un valor es estrictamente mayor que otro." },
       { "type": "paragraph", "value": "Es equivalente a > en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (x BOCA 5) { chotear('mayor'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO x BOCA 5 RESPALDO ALMA chotear ABRAZO 'mayor' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2447,7 +2445,7 @@
       { "type": "paragraph", "value": "CRUZ suma dos valores." },
       { "type": "paragraph", "value": "Es equivalente a + en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a CRUZ b;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a CRUZ b FRENO" }
     ]
   },
   {
@@ -2460,7 +2458,7 @@
       { "type": "paragraph", "value": "RAYA resta dos valores." },
       { "type": "paragraph", "value": "Es equivalente a - en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a RAYA b;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a RAYA b FRENO" }
     ]
   },
   {
@@ -2473,7 +2471,7 @@
       { "type": "paragraph", "value": "ESTRELLA multiplica dos valores." },
       { "type": "paragraph", "value": "Es equivalente a * en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a ESTRELLA b;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a ESTRELLA b FRENO" }
     ]
   },
   {
@@ -2486,7 +2484,7 @@
       { "type": "paragraph", "value": "RAMPA divide dos valores." },
       { "type": "paragraph", "value": "Es equivalente a / en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a RAMPA b;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a RAMPA b FRENO" }
     ]
   },
   {
@@ -2499,7 +2497,7 @@
       { "type": "paragraph", "value": "SOBRA devuelve el residuo de una división." },
       { "type": "paragraph", "value": "Es equivalente a % en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a SOBRA 2;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "cabal r DAR a SOBRA 2 FRENO" }
     ]
   },
   {
@@ -2512,7 +2510,7 @@
       { "type": "paragraph", "value": "GRITO niega una expresión booleana." },
       { "type": "paragraph", "value": "Es equivalente a ! en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (GRITO activo) { chotear('inactivo'); }" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO GRITO activo RESPALDO ALMA chotear ABRAZO 'inactivo' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2525,7 +2523,7 @@
       { "type": "paragraph", "value": "FRENO representa el punto y coma, terminador de sentencias." },
       { "type": "paragraph", "value": "Es equivalente a ; en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "chotear('hola') FRENO" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "chotear ABRAZO 'hola' RESPALDO FRENO" }
     ]
   },
   {
@@ -2538,7 +2536,7 @@
       { "type": "paragraph", "value": "SEMILLA representa la coma usada para separar parámetros o elementos." },
       { "type": "paragraph", "value": "Es equivalente a , en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "chotear(a SEMILLA b);" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "chotear ABRAZO a SEMILLA b RESPALDO FRENO" }
     ]
   },
   {
@@ -2551,7 +2549,7 @@
       { "type": "paragraph", "value": "ATOMO representa el punto para acceder a miembros de un objeto." },
       { "type": "paragraph", "value": "Es equivalente a . en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "objeto ATOMO metodo();" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "objeto ATOMO metodo ABRAZO RESPALDO FRENO" }
     ]
   },
   {
@@ -2564,7 +2562,7 @@
       { "type": "paragraph", "value": "DUDA representa el signo de interrogación del operador ternario." },
       { "type": "paragraph", "value": "Es equivalente a ? en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "condicion DUDA valorA OJOS valorB;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "condicion DUDA valorA OJOS valorB FRENO" }
     ]
   },
   {
@@ -2577,7 +2575,7 @@
       { "type": "paragraph", "value": "OJOS representa los dos puntos, usado en el operador ternario y en switch." },
       { "type": "paragraph", "value": "Es equivalente a : en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "wasa 1 OJOS chotear('uno'); cuaje;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "wasa 1 OJOS chotear ABRAZO 'uno' RESPALDO FRENO cuaje FRENO" }
     ]
   },
   {
@@ -2590,7 +2588,7 @@
       { "type": "paragraph", "value": "ABRAZO representa el paréntesis de apertura." },
       { "type": "paragraph", "value": "Es equivalente a ( en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "chotear ABRAZO 'hola' RESPALDO;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "chotear ABRAZO 'hola' RESPALDO FRENO" }
     ]
   },
   {
@@ -2603,7 +2601,7 @@
       { "type": "paragraph", "value": "RESPALDO representa el paréntesis de cierre." },
       { "type": "paragraph", "value": "Es equivalente a ) en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "chotear ABRAZO 'hola' RESPALDO;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "chotear ABRAZO 'hola' RESPALDO FRENO" }
     ]
   },
   {
@@ -2616,7 +2614,7 @@
       { "type": "paragraph", "value": "ALMA representa la llave de apertura de un bloque de código." },
       { "type": "paragraph", "value": "Es equivalente a { en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (deplano) ALMA chotear('hola'); CUERPO" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO deplano RESPALDO ALMA chotear ABRAZO 'hola' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2629,7 +2627,7 @@
       { "type": "paragraph", "value": "CUERPO representa la llave de cierre de un bloque de código." },
       { "type": "paragraph", "value": "Es equivalente a } en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "simon (deplano) ALMA chotear('hola'); CUERPO" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "simon ABRAZO deplano RESPALDO ALMA chotear ABRAZO 'hola' RESPALDO FRENO CUERPO" }
     ]
   },
   {
@@ -2642,7 +2640,7 @@
       { "type": "paragraph", "value": "CAJON representa el corchete de apertura para arreglos." },
       { "type": "paragraph", "value": "Es equivalente a [ en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "arreglo CAJON 0 TAPA;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "arreglo CAJON 0 TAPA FRENO" }
     ]
   },
   {
@@ -2655,7 +2653,7 @@
       { "type": "paragraph", "value": "TAPA representa el corchete de cierre para arreglos." },
       { "type": "paragraph", "value": "Es equivalente a ] en C++." },
       { "type": "heading", "value": "Sintaxis" },
-      { "type": "code", "label": "‹/› chapinScript", "value": "arreglo CAJON 0 TAPA;" }
+      { "type": "code", "label": "‹/› chapinScript", "value": "arreglo CAJON 0 TAPA FRENO" }
     ]
   }
 ]
